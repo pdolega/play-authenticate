@@ -7,13 +7,13 @@ This plugin uses concepts from [securesocial2][] and [Play20StartApp][] and prov
 
 Play Authenticate is cross-tested in Java 1.6, Java 1.7 (Up to `0.6.x`) and Java 1.8 (from `0.7.0`)
 
-Works fine with
+Works fine with Play version
 
 * `2.0.2` to `2.0.x` (last: `0.2.3-SNAPSHOT` - [2.0.x branch](https://github.com/joscha/play-authenticate/tree/2.0.x))
 * `2.1.0` to `2.1.x` (last: `0.3.6` - [2.1.x branch](https://github.com/joscha/play-authenticate/tree/2.1.x))
 * `2.2.0` to `2.2.x` (last: `0.5.4` - [2.2.x branch](https://github.com/joscha/play-authenticate/tree/2.2.x))
 * `2.3.0` to `2.3.x` (last: `0.6.9` - [2.3.x branch](https://github.com/joscha/play-authenticate/tree/2.3.x))
-* `2.4.0` to `2.4.x` (last: `0.7.x` - [master branch](https://github.com/joscha/play-authenticate/tree/master))
+* `2.4.0` to `2.4.x` (last: `0.7.x` - [2.4.x branch](https://github.com/joscha/play-authenticate/tree/2.4.x))
 * `2.5.0` to `2.5.x` (last: `0.8.x` - [master branch](https://github.com/joscha/play-authenticate/tree/master))
 
 Releases are on [mvnrepository](http://mvnrepository.com/artifact/com.feth) and snapshots can be found on [sonatype](https://oss.sonatype.org/content/repositories/snapshots/com/feth/).
@@ -32,14 +32,14 @@ Play-Authenticate is available in [Maven Central](http://search.maven.org/#brows
 <dependency>
     <groupId>com.feth</groupId>
     <artifactId>play-authenticate_2.11</artifactId>
-    <version>0.8.0</version>
+    <version>0.8.0-SNAPSHOT</version>
 </dependency>
 ```
 or
 
 ```scala
 val appDependencies = Seq(
-  "com.feth" %% "play-authenticate" % "0.8.0"
+  "com.feth" %% "play-authenticate" % "0.8.0-SNAPSHOT"
 )
 ```
 
@@ -94,7 +94,7 @@ There is also a [sample application using Play!Authenticate with MongoDB](https:
 ## Versions
 * **TRUNK** [not released in the repository, yet]
   * Fancy contributing something? :-)
-* **0.8.0** [2016-04-xx]
+* **0.8.0-SNAPSHOT** [2016-04-04]
   * Upgraded to Play 2.5
 * **0.7.1** [2015-12-13]
   * LinkedIn profile URL fixes (thanks @akitaylor)
@@ -227,7 +227,7 @@ There is also a [sample application using Play!Authenticate with MongoDB](https:
 
 ## License
 
-Copyright (c) 2012-2015 Joscha Feth
+Copyright (c) 2012-2016 Joscha Feth
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this work except in compliance with the License. You may obtain a copy of the License in the LICENSE file, or at:
 
